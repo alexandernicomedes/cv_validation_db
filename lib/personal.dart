@@ -7,7 +7,7 @@ class personal extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
           title: const Text('Personal Data'),
-          backgroundColor: Colors.lightBlue,
+          backgroundColor: Color.fromARGB(255, 121, 142, 199),
           ),
           body: const Column(
         crossAxisAlignment: CrossAxisAlignment.start, // Align text to the left
@@ -26,10 +26,10 @@ class personal extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
             child: Text(
-              'Name: John Carlo C. Carasi',
+              'Name: Alexander P. Nicomedes',
               style: TextStyle(
                 fontSize: 16,
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 7, 7, 8),
               ),
             ),
           ),
@@ -37,9 +37,9 @@ class personal extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'Age: 22 Years Old',
+              'Age: 21 Years Old',
               style: TextStyle(
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 10, 11, 11),
                 fontSize: 16,
               ),
             ),
@@ -48,9 +48,9 @@ class personal extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'Date of Birth: January 00, 2001',
+              'Date of Birth: January 01,2002',
               style: TextStyle(
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 12, 12, 12),
                 fontSize: 16,
               ),
             ),
@@ -59,9 +59,9 @@ class personal extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'Address: Longos Calasiao, Pangasinan',
+              'Address: Malasiqui, Pangasinan',
               style: TextStyle(
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 11, 11, 11),
                 fontSize: 16,
               ),
             ),
@@ -72,7 +72,7 @@ class personal extends StatelessWidget {
             child: Text(
               'Height: 170.2cm',
               style: TextStyle(
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 7, 7, 7),
                 fontSize: 16,
               ),
             ),
@@ -83,7 +83,7 @@ class personal extends StatelessWidget {
             child: Text(
               'Weight: 55kg',
               style: TextStyle(
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 11, 11, 11),
                 fontSize: 16,
               ),
             ),
@@ -119,7 +119,7 @@ class personal extends StatelessWidget {
               'Philippine College of Science and technology'
               '2020 - present',
               style: TextStyle(
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 10, 10, 10),
                 fontSize: 16,
               ),
             ),
@@ -138,9 +138,9 @@ class personal extends StatelessWidget {
               Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'Alaminos City National High School',
+              'Malasiqui National High School',
               style: TextStyle(
-                color: Colors.lightBlue,
+                color: Color.fromARGB(255, 9, 10, 10),
                 fontSize: 16,
               ),
             ),

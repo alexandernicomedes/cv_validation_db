@@ -15,7 +15,7 @@ class skills extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 20, 0, 0),
             child: Text(
-              'TagaMekus',
+              'Gwapo',
               style: TextStyle(
                 fontSize: 20,
                 color: Colors.lightBlue,
@@ -37,7 +37,7 @@ class skills extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'Driving',
+              'Basketball',
               style: TextStyle(
                 color: Colors.lightBlue,
                 fontSize: 18,
@@ -48,7 +48,7 @@ class skills extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'Writing',
+              'Drawing',
               style: TextStyle(
                 color: Colors.lightBlue,
                 fontSize: 18,
@@ -81,7 +81,7 @@ class skills extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'aguy',
+              'Booster',
               style: TextStyle(
                 color: Colors.lightBlue,
                 fontSize: 18,
@@ -92,7 +92,7 @@ class skills extends StatelessWidget {
           Padding(
             padding: EdgeInsets.fromLTRB(10, 10, 0, 0),
             child: Text(
-              'ginoo',
+              'tambay',
               style: TextStyle(
                 color: Colors.lightBlue,
                 fontSize: 18,

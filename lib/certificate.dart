@@ -7,7 +7,7 @@ class certificate extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
           title: const Text('Certification'),
-          backgroundColor: const Color.fromARGB(255, 16, 90, 124),
+          backgroundColor: Color.fromARGB(255, 187, 212, 224),
           ),
           body: const Column(
         crossAxisAlignment: CrossAxisAlignment.start, // Align text to the left
@@ -18,7 +18,7 @@ class certificate extends StatelessWidget {
               'CSE (Professional)',
               style: TextStyle(
                 fontSize: 20,
-                color: Color.fromARGB(255, 24, 104, 141),
+                color: Color.fromARGB(255, 171, 195, 206),
               ),
             ),
           ),
@@ -28,7 +28,7 @@ class certificate extends StatelessWidget {
             child: Text(
               'National Certificate 2 for Computer System Servicing (CSS) ',
               style: TextStyle(
-                color: Color.fromARGB(255, 23, 93, 126),
+                color: Color.fromARGB(255, 164, 185, 195),
                 fontSize: 18,
               ),
             ),

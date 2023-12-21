@@ -21,7 +21,7 @@ class homepage extends StatelessWidget {
           title: const Center(
             child: Text('My Curriculum Vitae'),
           ),
-          backgroundColor: const Color.fromARGB(255, 15, 98, 136),
+          backgroundColor: Color.fromARGB(255, 5, 6, 6),
         ),
         body: SingleChildScrollView(
           padding: EdgeInsets.all(20),
@@ -36,7 +36,7 @@ class homepage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               const Text(
-                "JOHN CARLO CARASI",
+                "ALEXANDER P. NICOMEDES",
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
@@ -44,7 +44,7 @@ class homepage extends StatelessWidget {
               ),
               const SizedBox(height: 20),
               const Text(
-                "Address: Longos, Calasiao, Pangasinan",
+                "Address: Malasiqui, Pangasinan",
                 style: TextStyle(fontSize: 20),
               ),
                SizedBox(height: 20),
@@ -54,7 +54,7 @@ class homepage extends StatelessWidget {
                   children: [
                     Icon(
                       Icons.phone,
-                      color: Color.fromARGB(255, 32, 123, 165),
+                      color: Color.fromARGB(255, 8, 8, 8),
                     ),
                     Text(
                       "09299924718",
@@ -67,9 +67,9 @@ class homepage extends StatelessWidget {
               const Padding(
                 padding: EdgeInsets.fromLTRB(0, 10, 0, 0),
                 child: Row(children: [
-                  Icon(Icons.email, color: Color.fromARGB(255, 29, 108, 145)),
+                  Icon(Icons.email, color: Color.fromARGB(255, 5, 6, 6)),
                   Text(
-                    "johncarlocarasi00@gmail.com",
+                    "alexander19@gmail.com",
                     style: TextStyle(fontSize: 20),
                   ),
                 ]),
@@ -83,7 +83,7 @@ class homepage extends StatelessWidget {
                 ),
               ),
               const Text(
-                "TagaMekus",
+                "Tambay",
                 style: TextStyle(fontSize: 20),
               ),
               SizedBox(height: 20),
@@ -93,7 +93,7 @@ class homepage extends StatelessWidget {
                     iconSize: 40,
                     icon:const Icon(
                       IconData(0xe043, fontFamily: 'MaterialIcons'),
-                      color: Color.fromARGB(255, 20, 109, 150),
+                      color: Color.fromARGB(255, 8, 8, 8),
                     ),
                     onPressed: () {
                       Navigator.push(
@@ -113,7 +113,7 @@ class homepage extends StatelessWidget {
                     iconSize: 40,
                     icon: const Icon(
                       IconData(0xf69b, fontFamily: 'MaterialIcons'),
-                      color: Color.fromARGB(255, 23, 101, 138),
+                      color: Color.fromARGB(255, 10, 10, 10),
                     ),
                     onPressed: () {
                       Navigator.push(
@@ -133,7 +133,7 @@ class homepage extends StatelessWidget {
                     iconSize: 40,
                     icon: const Icon(
                       IconData(0xe57f, fontFamily: 'MaterialIcons'),
-                      color: Color.fromARGB(255, 24, 110, 150),
+                      color: Color.fromARGB(255, 8, 8, 8),
                     ),
                     onPressed: () {
                       Navigator.push(
